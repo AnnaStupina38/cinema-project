@@ -28,7 +28,7 @@
                 <p class="ticket__info">Начало сеанса: <span
                         class="ticket__details ticket__start">{{ $movieTime }}</span></p>
 
-                <img class="ticket__info-qr" src="storage/app-images/qr-code.png">
+                <img class="ticket__info-qr" src="storage/qr-code.png">
 
                 <p class="ticket__hint">Покажите QR-код нашему контроллеру для подтверждения бронирования.</p>
                 <p class="ticket__hint">Приятного просмотра!</p>
