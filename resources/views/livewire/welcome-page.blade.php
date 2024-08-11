@@ -4,12 +4,14 @@
     </header>
 
     <nav class="page-nav">
-        @foreach ($dates as $date)
-            <button type="button" class="page-nav__day" wire:click="shooseDate({{ $date }})"
-                wire:key="{{ $date }}">
-                <span class="page-nav__day-number">{{ $date }}</span>
-            </button>
-        @endforeach
+        @if ($dates)
+            @foreach ($dates as $date)
+                <button type="button" class="page-nav__day" wire:click="shooseDate({{ $date }})"
+                    wire:key="{{ $date }}">
+                    <span class="page-nav__day-number">{{ $date }}</span>
+                </button>
+            @endforeach
+        @endif
     </nav>
 
     <main>

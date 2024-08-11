@@ -17,8 +17,10 @@ class WelcomePage extends Component
         foreach ($this->schedule as $item) {
             $uniqueDates[] = date_parse($item->date_time)['day'];
         }
-        sort($uniqueDates);
-        $this->dates = array_unique($uniqueDates);
+        if (isset($uniqueDates)) {
+            sort($uniqueDates);
+            $this->dates = array_unique($uniqueDates);
+        }
     }
 
     public function shooseDate($date)

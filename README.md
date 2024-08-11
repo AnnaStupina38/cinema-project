@@ -16,6 +16,8 @@ Developed on Laravel 10 in conjunction with livewire, using the moonshine admin 
 **DB_USERNAME:** username to connect to the database<br />
 **DB_PASSWORD:** password to connect to the database<br />
 
+### Create storage link
+* **php artisan storage:link**
 
 ### Run migrations
  * **php artisan migrate**
