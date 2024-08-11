@@ -7,7 +7,7 @@ Developed on Laravel 10 in conjunction with livewire, using the moonshine admin 
 * **mySQL >= 5.6.0**
 
 ### Installation
- * Run the command in the terminal: **composer create-project anna-stupina38/cinema**
+ * Run the command in the terminal: **composer create-project anna-stupina38/cinema-project**
  * Create a mySQL database on your local or remote server and edit the **.env** file in the project root directory, assigning values ​​to the constants, where:<br />
 **APP_URL:** your domain<br />
 **DB_HOST:** mySQL server address<br />
